@@ -1,5 +1,4 @@
 from google.cloud import speech_v1 as speech
-import playsound
 from pygame import mixer
 import time 
 import threading
