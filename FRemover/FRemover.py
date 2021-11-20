@@ -3,6 +3,8 @@ from pygame import mixer
 import time 
 import threading
 import winsound
+import json
+
 mixer.init()
 
 class FRemover:
@@ -11,7 +13,11 @@ class FRemover:
         self.sound = 0
         
         self.start = time.time()
-        badwords = ['drugs', 'drug', 'Owen']
+        with open("AbusiveWords.txt") as abusive:
+            lines = abusive.read()
+            badwords = json.loads(lines)["words"]
+            
+        
         config = dict(language_code="en-US", audio_channel_count=2,  enable_word_time_offsets=True,
         )
         audio = dict(uri=audiogcspath)
@@ -131,5 +137,4 @@ class FRemover:
                 time.sleep(lasttimes-i[1])
 
 
-
-##FRemover("gs://audiosforgdetectorandbeeper1231/Recording-13.flac",r'C:\Users\Dell\Downloads\Recording-13.flac')
+##FRemover("gs://audiosforgdetectorandbeeper1231/Recording-16.flac",r'C:\Users\Dell\Downloads\Recording-16.flac')
