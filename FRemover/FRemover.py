@@ -133,4 +133,4 @@ class FRemover:
 
 
 
-FRemover("gs://audiosforgdetectorandbeeper1231/Recording-13.flac",r'C:\Users\Dell\Downloads\Recording-13.flac')
+##FRemover("gs://audiosforgdetectorandbeeper1231/Recording-13.flac",r'C:\Users\Dell\Downloads\Recording-13.flac')
