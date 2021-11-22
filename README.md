@@ -1,0 +1,2 @@
+# FRemover
+Do you watch movies with your children  on OTT? If yes, in most of the movies, abusive languages are spoken and they may generate toxicity in them. They will think that using abusive words is normal. My solution will tackle this problem of the society. This will censor bad words if found in an audio. It uses google cloud speech to text to get timestamps of the words spoken in the audio and a beep sound is played when a bad word is detected in an audio.
