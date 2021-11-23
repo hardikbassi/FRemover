@@ -137,4 +137,4 @@ class FRemover:
                 time.sleep(lasttimes-i[1])
 
 
-FRemover("gs://audiosforgdetectorandbeeper1231/Recording-14.flac",r'C:\Users\Dell\Downloads\Recording-14.flac')
+FRemover("gs://audiosforgdetectorandbeeper1231/Recording-11.flac",r'C:\Users\Dell\Downloads\Recording-11.flac')
