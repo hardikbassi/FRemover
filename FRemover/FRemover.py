@@ -1,4 +1,5 @@
 from google.cloud import speech_v1 as speech
+
 from pygame import mixer
 import time 
 import threading
@@ -20,6 +21,7 @@ class FRemover:
         
         config = dict(language_code="en-IN", audio_channel_count=2,  enable_word_time_offsets=True,
         )
+        
         audio = dict(uri=audiogcspath)
 
         self.offsets = self.print_word_offsets(self.speech_to_text(config, audio)[1])
@@ -41,6 +43,9 @@ class FRemover:
         t2.join()
   
             # Setting the volume
+    
+    
+
     
 
     def speech_to_text(self,config, audio):
