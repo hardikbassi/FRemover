@@ -7,3 +7,10 @@ In later versions, it will support audio censoring in a video and in future, it 
 
 Warning: if you are soft hearted, don't open AbusiveWords.txt. The authors intention was not to hurt anyone and instead protect this beautiful world from these abusive words.
 
+## Docs 
+
+### Requirements
+
+Make sure you have a Google Cloud Account with speech to text api enabled. 
+
+### Installations
