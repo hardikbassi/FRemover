@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# FRemover
 
-You can use the [editor on GitHub](https://github.com/Hardik14092009/FRemover/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Do you watch movies with your children  on OTT? If yes, in most of the movies, abusive languages are spoken and they may generate toxicity in them. They will think that using abusive words is normal. My solution will tackle this problem of the society. This will censor bad words if found in an audio file. It uses google cloud speech to text to get timestamps of the words spoken in the audio and a beep sound is played when a bad word is detected in an audio. 
 
-### Markdown
+In later versions, it will support audio censoring in a video and in future, it will censor bad visuals in a video. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Warning: if you are soft hearted, don't open AbusiveWords.txt. The authors intention was not to hurt anyone and instead protect this beautiful world from these abusive words.
 
-```markdown
-Syntax highlighted code block
+## Docs 
 
-# Header 1
-## Header 2
-### Header 3
+### Requirements
 
-- Bulleted
-- List
+Make sure you have a Google Cloud Account with speech to text and cloud storage api enabled and google cloud config file's path set up as environment variable. 
 
-1. Numbered
-2. List
+### Installation Instructions
 
-**Bold** and _Italic_ and `Code` text
+#### 1 Clone this repo using git command:
 
-[Link](url) and ![Image](src)
-```
+<code>git clone https://github.com/Hardik14092009/FRemover.git</code>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#### 2 install necessary packages
 
-### Jekyll Themes
+<code>pip install google-cloud-speech</code>
+<code>pip install pygame</code>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hardik14092009/FRemover/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Run the code
 
-### Support or Contact
+--> Open FRemover.py in a text editor in FRemover folder
+<br>
+--> Call the FRemover class in the code with the args as follow:
+<br>
+<code>audiogcspath -> The gsutil path of Audio in Google Cloud Storage</code>
+<br>
+<code>audiopcpath -> The Path of audio on your PC</code>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+Run the program and It will play the audio and censor appropriate words. You can tell which word to censor in AbusiveWords.txt.
+
+All the best! You have learn't how to setup and run FRemover, All the best
+
+## Social
+
+If you liked the project, do follow and connect me on LinkedIn
+
+### LinkedIn Handle 
+
+https://www.linkedin.com/in/hardik-bassi-168930222/
+
