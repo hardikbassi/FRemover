@@ -14,3 +14,4 @@ Warning: if you are soft hearted, don't open AbusiveWords.txt. The authors inten
 Make sure you have a Google Cloud Account with speech to text api enabled. 
 
 ### Installations
+
