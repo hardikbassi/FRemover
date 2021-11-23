@@ -17,7 +17,7 @@ Make sure you have a Google Cloud Account with speech to text and cloud storage 
 
 #### 1 Clone this repo using git command:
 
-<code>git clone https://github.com/Hardik14092009/FRemover.git</code>
+<code>git clone https://github.com/hardikbassi/FRemover.git</code>
 
 #### 2 install necessary packages
 
@@ -49,5 +49,5 @@ If you liked the project, do follow and connect me on LinkedIn
 
 <a href="https://www.linkedin.com/in/hardik-bassi-168930222/"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536569.png?token=exp=1637675076~hmac=4b70fe2333306af6d54bd9a5d7d4d029" width="50px" height="50px"></a>
 <br>
-<a href="https://hardik14092009.github.io/FRemover">Site of the project</a>
+<a href="https://hardikbassi.github.io/FRemover">Site of the project</a>
 
