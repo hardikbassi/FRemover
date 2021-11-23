@@ -11,7 +11,39 @@ Warning: if you are soft hearted, don't open AbusiveWords.txt. The authors inten
 
 ### Requirements
 
-Make sure you have a Google Cloud Account with speech to text api enabled. 
+Make sure you have a Google Cloud Account with speech to text and cloud storage api enabled and google cloud config file's path set up as environment variable. 
 
-### Installations
+### Installation Instructions
+
+#### 1 Clone this repo using git command:
+
+<code>git clone https://github.com/Hardik14092009/FRemover.git</code>
+
+#### 2 install necessary packages
+
+<code>pip install google-cloud-speech</code>
+<code>pip install pygame</code>
+
+#### Run the code
+
+--> Open FRemover.py in a text editor in FRemover folder
+<br>
+--> Call the FRemover class in the code with the args as follow:
+<br>
+<code>audiogcspath -> The gsutil path of Audio in Google Cloud Storage</code>
+<br>
+<code>audiopcpath -> The Path of audio on your PC</code>
+
+
+Run the program and It will play the audio and censor appropriate words. You can tell which word to censor in AbusiveWords.txt.
+
+All the best! You have learn't how to setup and run FRemover, All the best
+
+## Social
+
+If you liked the project, do follow and connect me on LinkedIn
+
+### LinkedIn Handle 
+
+https://www.linkedin.com/in/hardik-bassi-168930222/
 
