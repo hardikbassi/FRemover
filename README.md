@@ -27,13 +27,19 @@ Make sure you have a Google Cloud Account with speech to text and cloud storage 
 #### Run the code
 
 --> Open FRemover.py in a text editor in FRemover folder
+<br>
 --> Call the FRemover class in the code with the args as follow:
+<br>
 <code>audiogcspath -> The URL of Audoo in Google Cloud Storage</code>
+<br>
 <code>audiopcpath -> The Path of audio on your PC</code>
+
 
 Run the program and It will play the audio and censor appropriate words. You can tell which word to censor in AbusiveWords.txt.
 
-#### Author's LinkedIn Handle:
+## Social
+
+### LinkedIn Handle 
 
 https://www.linkedin.com/in/hardik-bassi-168930222/
 
