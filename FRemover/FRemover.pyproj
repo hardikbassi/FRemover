@@ -25,17 +25,6 @@
     <Compile Include="FRemover.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="fremover\">
-      <Id>fremover</Id>
-      <Version>3.9</Version>
-      <Description>fremover (Python 3.9 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <ItemGroup>
