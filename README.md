@@ -11,7 +11,24 @@ Warning: if you are soft hearted, don't open AbusiveWords.txt. The authors inten
 
 ### Requirements
 
-Make sure you have a Google Cloud Account with speech to text api enabled. 
+Make sure you have a Google Cloud Account with speech to text api enabled and google cloud config file's path set up as environment variable. 
 
-### Installations
+### Installation Instructions
+
+#### 1 Clone this repo using git command:
+
+<code>git clone https://github.com/Hardik14092009/FRemover.git</code>
+
+#### 2 install necessary packages
+
+<code>pip install google-cloud-speech</code>
+<code>pip install pygame</code>
+
+#### Run the code
+
+--> Open FRemover.py in FRemover folder
+
+
+
+
 
