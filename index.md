@@ -47,5 +47,5 @@ If you liked the project, do follow and connect me on LinkedIn
 
 ### LinkedIn Handle 
 
-https://www.linkedin.com/in/hardik-bassi-168930222/
+<a href="https://www.linkedin.com/in/hardik-bassi-168930222/"><img src="https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520"></a>
 
