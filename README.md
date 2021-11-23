@@ -33,7 +33,7 @@ Make sure you have a Google Cloud Account with speech to text and cloud storage 
 
 Run the program and It will play the audio and censor appropriate words. You can tell which word to censor in AbusiveWords.txt.
 
-Author's LinkedIn Handle:
+#### Author's LinkedIn Handle:
 
 https://www.linkedin.com/in/hardik-bassi-168930222/
 
