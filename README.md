@@ -17,7 +17,7 @@ Make sure you have a Google Cloud Account with speech to text and cloud storage 
 
 #### 1 Clone this repo using git command:
 
-<code>git clone https://github.com/Hardik14092009/FRemover.git</code>
+<code>git clone https://github.com/hardikbassi/FRemover.git</code>
 
 #### 2 install necessary packages
 
@@ -26,18 +26,20 @@ Make sure you have a Google Cloud Account with speech to text and cloud storage 
 
 #### Run the code
 
---> Open FRemover.py in a text editor in FRemover folder
+- Open FRemover.py in a text editor in FRemover folder
 <br>
---> Call the FRemover class in the code with the args as follow:
-<br>
-<code>audiogcspath -> The gsutil path of Audio in Google Cloud Storage</code>
-<br>
-<code>audiopcpath -> The Path of audio on your PC</code>
+
+- Call the FRemover class in the code with the args as follow:
+
+
+    => <code>audiogcspath -> The gsutil path of Audio in Google Cloud Storage</code>
+
+    => <code>audiopcpath -> The Path of audio on your PC</code>
 
 
 Run the program and It will play the audio and censor appropriate words. You can tell which word to censor in AbusiveWords.txt.
 
-All the best! You have learn't how to setup and run FRemover, All the best
+All the best! You have learn't how to setup and run FRemover
 
 ## Social
 
@@ -45,5 +47,7 @@ If you liked the project, do follow and connect me on LinkedIn
 
 ### LinkedIn Handle 
 
-https://www.linkedin.com/in/hardik-bassi-168930222/
+<a href="https://www.linkedin.com/in/hardik-bassi-168930222/"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536569.png?token=exp=1637675076~hmac=4b70fe2333306af6d54bd9a5d7d4d029" width="50px" height="50px"></a>
+<br>
+<a href="https://hardikbassi.github.io/FRemover">Site of the project</a>
 
