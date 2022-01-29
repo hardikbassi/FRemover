@@ -6,10 +6,11 @@ import threading
 import winsound
 import json
 
-mixer.init()
+
 
 class FRemover:
     def __init__(self, audiogcspath, audiopcpath):
+        mixer.init()
         self.lowerwal = False
         self.sound = 0
         
@@ -19,7 +20,7 @@ class FRemover:
             badwords = json.loads(lines)["words"]
             
         
-        config = dict(language_code="en-IN", audio_channel_count=2,  enable_word_time_offsets=True,
+        config = dict(language_code="en-IN", audio_channel_count=1  ,  enable_word_time_offsets=True,
         )
         
         audio = dict(uri=audiogcspath)
@@ -141,5 +142,4 @@ class FRemover:
             if i == fs[-1]:
                 time.sleep(lasttimes-i[1])
 
-
-##FRemover("gs://audiosforgdetectorandbeeper1231/Recording-11.flac",r'C:\Users\Dell\Downloads\Recording-11.flac')
+FRemover("gs://audiosforgdetectorandbeeper1231/New-Recording-40.flac",r'C:\Users\Dell\Downloads\New-Recording-40.flac')

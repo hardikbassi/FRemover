@@ -1,3 +1,3 @@
 {
-	"words": ["damn", "dammit", "damnit", "heroine", "drugs"]
+	"words": ["damn", "dammit", "damnit", "heroine", "drug", "mera", "kamina", "pagal"]
 }
